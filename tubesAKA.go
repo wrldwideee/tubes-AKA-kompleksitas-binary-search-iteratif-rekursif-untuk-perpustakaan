@@ -351,7 +351,7 @@ const htmlTemplate = `
                 <hr style="border: 0; border-top: 1px dashed #cbd5e1; margin: 15px 0;">
                 <ul style="padding-left: 20px; margin: 0;">
                     <li><strong>Unique Title Logic:</strong> Judul menggunakan 3 kata yang tidak boleh sama (Misal: "Data Bisnis Akuntansi"). Dengan 160 kata dasar, tersedia >4 Juta variasi judul unik yang terurut secara otomatis.</li>
-                    <li><strong>Kompleksitas:</strong> Dengan minimal 500 data, kompleksitas $O(\log n)$ mulai terasa dampaknya. Pada 1 juta data, pencarian hanya butuh sekitar 20 langkah.</li>
+                    <li><strong>Kompleksitas:</strong> Dengan minimal 500 data, kompleksitas O(log n) mulai terasa dampaknya. Pada 1 juta data, pencarian hanya butuh sekitar 20 langkah.</li>
                 </ul>
             </div>
         </div>
@@ -483,3 +483,4 @@ func main() {
 	fmt.Println("==============================================")
 	http.ListenAndServe(":8080", nil)
 }
+
